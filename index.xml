@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>LearnOverpass</title>
+    <link>//osmlab.github.io/learnoverpass/</link>
+    <description>Recent content on LearnOverpass</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 15 Jul 2015 16:35:50 +0800</lastBuildDate>
+    
+	<atom:link href="//osmlab.github.io/learnoverpass/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Way Node Recursion</title>
+      <link>//osmlab.github.io/learnoverpass/en/exercises/intro/15/</link>
+      <pubDate>Wed, 15 Jul 2015 16:35:50 +0800</pubDate>
+      
+      <guid>//osmlab.github.io/learnoverpass/en/exercises/intro/15/</guid>
+      <description>“Oh! I see that building!” Bob exclaims. “So the ATM is just on the other side, yes?”
+As Bob walked to the building, he realized one important thing - he didn’t know where the entrance is! Looks like we need to write another query for him!
+With the existing query, we’ve successfully found the building, but we need to further locate a specific point - the building’s entrance.
+A building, since it’s generally a polygon when viewed from the map, is defined as a way.</description>
+    </item>
+    
+    <item>
+      <title>Way Closed Polygon</title>
+      <link>//osmlab.github.io/learnoverpass/en/exercises/intro/14/</link>
+      <pubDate>Tue, 14 Jul 2015 16:35:50 +0800</pubDate>
+      
+      <guid>//osmlab.github.io/learnoverpass/en/exercises/intro/14/</guid>
+      <description>“Hmm, I don’t see it from the observatory, but I do see it from the overpass query map.” says Bob. Indeed, the ATM is on the opposite side of a building (the brownish polygon in the map viewer).
+Let’s go ahead and query for both ATM and the building, so that Bob can have a better idea as to where the ATM is.</description>
+    </item>
+    
+    <item>
+      <title>Around II</title>
+      <link>//osmlab.github.io/learnoverpass/en/exercises/intro/13/</link>
+      <pubDate>Mon, 13 Jul 2015 16:35:50 +0800</pubDate>
+      
+      <guid>//osmlab.github.io/learnoverpass/en/exercises/intro/13/</guid>
+      <description>“Thanks man!” Bob says as we query for the route back again. He follows it to reach the observatory tower. Once he reached the river bank, he decides to leave his bike and swim to the observatory!
+After a few minutes, Bob comes back, shivering and wet.
+“Brrrr… water’s cold!” Bob exclaims, when, out of nowhere, the waiter from the restaurant, all in white attire, appareas. He actually followed Bob all this way!</description>
+    </item>
+    
+    <item>
+      <title>Out Modificator Data</title>
+      <link>//osmlab.github.io/learnoverpass/en/exercises/intro/12/</link>
+      <pubDate>Sun, 12 Jul 2015 16:35:50 +0800</pubDate>
+      
+      <guid>//osmlab.github.io/learnoverpass/en/exercises/intro/12/</guid>
+      <description>“Uaaghhh! What happened to my map!” Bob exclaims as he saw the now empty map view.
+So you see, using a bare out statement produced an empty map.
+See, our out statement prints out the data that it receives, that is, if it can. A way only carries a reference to the list of nodes that make up for it - try clicking the ‘data’ button on the top right of the map view.</description>
+    </item>
+    
+    <item>
+      <title>Out Modificators</title>
+      <link>//osmlab.github.io/learnoverpass/en/exercises/intro/11/</link>
+      <pubDate>Sat, 11 Jul 2015 16:35:50 +0800</pubDate>
+      
+      <guid>//osmlab.github.io/learnoverpass/en/exercises/intro/11/</guid>
+      <description>Incredibly good work!
+“Thanks!” Bob said as he hopped on his bike. “I’ll be following this road to the observatory then!&amp;rdquo; The last couple of exercises introduced quite a few things, namely, way and the out geom modificator.
+A Way is another OSM element (like node) that describes a linear feature or area. Just accept that a way can also define areas for now. The relevant info that we need to learn is that a way is usually used to define roads, streams and highways, among other things.</description>
+    </item>
+    
+    <item>
+      <title>Way By Area</title>
+      <link>//osmlab.github.io/learnoverpass/en/exercises/intro/10/</link>
+      <pubDate>Fri, 10 Jul 2015 16:35:50 +0800</pubDate>
+      
+      <guid>//osmlab.github.io/learnoverpass/en/exercises/intro/10/</guid>
+      <description>“Ahm, Are you sure this is right?” Bob says as he sees the different ways. Uh oh!
+We’ve managed to successfully query for ways of the name “Innstraße”, but unfortunately, it seems that there are actually quite a few ways that are named the same!
+This is obviously unacceptable - Overpass showed us all the ways named “Innstraße” around the world, but we’re only interested in the “Innstraße” near Bob.</description>
+    </item>
+    
+    <item>
+      <title>Way Query</title>
+      <link>//osmlab.github.io/learnoverpass/en/exercises/intro/9/</link>
+      <pubDate>Thu, 09 Jul 2015 16:35:50 +0800</pubDate>
+      
+      <guid>//osmlab.github.io/learnoverpass/en/exercises/intro/9/</guid>
+      <description>Bob carefully examines the bike in the parking space, trying to find his bike. “Aha!&amp;rdquo; exclaims Bob, as he grabs the red bike we can only assume is his.
+Now that Bob is on his bike, he now needs to go the observatory to find his wallet. Since we already know Bob has a bad sense of direction (I mean, he did get lost!) it’d be best to show Bob the main road he needs to take to reach the observatory.</description>
+    </item>
+    
+    <item>
+      <title>Around By Area</title>
+      <link>//osmlab.github.io/learnoverpass/en/exercises/intro/8/</link>
+      <pubDate>Wed, 08 Jul 2015 16:35:50 +0800</pubDate>
+      
+      <guid>//osmlab.github.io/learnoverpass/en/exercises/intro/8/</guid>
+      <description>“Wooh, At least I know now where the observatory is!” says Bob.
+Seeing the distance between them though, Bob is quite flustered. That’s quite a long way!
+Luckily, Bob remembers leaving his bicycle in the nearest parking space. Let’s go ahead and query for Bob’s bike!</description>
+    </item>
+    
+    <item>
+      <title>By Area</title>
+      <link>//osmlab.github.io/learnoverpass/en/exercises/intro/7/</link>
+      <pubDate>Tue, 07 Jul 2015 16:35:50 +0800</pubDate>
+      
+      <guid>//osmlab.github.io/learnoverpass/en/exercises/intro/7/</guid>
+      <description>“Bingo!” Bob says as he walks towards the restaurant.
+See how powerful the Overpass QL is in querying OSM data? It has a plethora of different filters and statements, and combining them with each other can create even more specific queries for your use cases.
+Our previous example introduces a very important metaphor in the Overpass Query Language, which is ‘flow’. A good way to think of the Overpass API is that it allows OSM data (nodes, etc.</description>
+    </item>
+    
+    <item>
+      <title>Filter by Tag III</title>
+      <link>//osmlab.github.io/learnoverpass/en/exercises/intro/6/</link>
+      <pubDate>Mon, 06 Jul 2015 16:35:50 +0800</pubDate>
+      
+      <guid>//osmlab.github.io/learnoverpass/en/exercises/intro/6/</guid>
+      <description>“Woah, great! I see a lot of nodes around me, but there are too many, and I’m not sure which are the restaurants!&amp;rdquo;
+We used the around filter on our previous example to query for nodes around our particular node, and it worked! As you can see on the map viewer, we see the OSM data around our first statement.
+However, it’s quite problematic - we haven’t actually found any restaurants, and there are too many nodes!</description>
+    </item>
+    
+    <item>
+      <title>Around Filter</title>
+      <link>//osmlab.github.io/learnoverpass/en/exercises/intro/5/</link>
+      <pubDate>Sun, 05 Jul 2015 16:35:50 +0800</pubDate>
+      
+      <guid>//osmlab.github.io/learnoverpass/en/exercises/intro/5/</guid>
+      <description>&amp;ldquo;Woah, it’s empty! Could it be that there are no restaurants near me?” asks Bob.
+Not really. See, our first statement node(2190458950) is already a node, so filtering it further wouldn’t do anything! And since we added a new filter (restaurants) to a statement that we know gives us a tree, we basically asked OSM to further filter our result set (a tree node) to only show restaurants, which obviously results in OSM nothing (since a tree is not a restaurant)!</description>
+    </item>
+    
+    <item>
+      <title>Filter by Tag III?</title>
+      <link>//osmlab.github.io/learnoverpass/en/exercises/intro/4/</link>
+      <pubDate>Sat, 04 Jul 2015 16:35:50 +0800</pubDate>
+      
+      <guid>//osmlab.github.io/learnoverpass/en/exercises/intro/4/</guid>
+      <description>“Well isn’t that better? Shorter and easier to work with.”
+“You know, I’ve been waiting for you for quite a while, I’m hungry! Since my GPS doesn’t really seem to be all that reliable, would you mind looking for a place near me where I can eat?&amp;rdquo;</description>
+    </item>
+    
+    <item>
+      <title>Filter By Tag II</title>
+      <link>//osmlab.github.io/learnoverpass/en/exercises/intro/3/</link>
+      <pubDate>Fri, 03 Jul 2015 16:35:50 +0800</pubDate>
+      
+      <guid>//osmlab.github.io/learnoverpass/en/exercises/intro/3/</guid>
+      <description>Awesome! We’ve filtered our data to only show trees!
+If you notice on the text editor on the right, [natural=tree] is placed on the 2nd line. Overpass Turbo allows you to add indentation and extra lines as you see fit, so feel free to make ample use of them to make your queries more readable! Note however, that the semicolon is also placed in the second line to tell Overpass that statement is finished.</description>
+    </item>
+    
+    <item>
+      <title>Filter By Tag</title>
+      <link>//osmlab.github.io/learnoverpass/en/exercises/intro/2/</link>
+      <pubDate>Thu, 02 Jul 2015 16:35:50 +0800</pubDate>
+      
+      <guid>//osmlab.github.io/learnoverpass/en/exercises/intro/2/</guid>
+      <description>Nice! As you can see the Query Language might look cryptic at first, but it’s actually quite straightforward!
+Those circles you see in the map view are &amp;ldquo;points of interest&amp;rdquo; called “nodes”. Try clicking on them - some just contain their own positions (lat/lon) but some of them are tagged and contain other data, such as names, type of node, etc, etc.
+Since our friend “Bob” has a pretty inaccurate GPS, he only managed to give us rough coordinates.</description>
+    </item>
+    
+    <item>
+      <title>Introduction</title>
+      <link>//osmlab.github.io/learnoverpass/en/exercises/intro/1/</link>
+      <pubDate>Wed, 01 Jul 2015 16:35:50 +0800</pubDate>
+      
+      <guid>//osmlab.github.io/learnoverpass/en/exercises/intro/1/</guid>
+      <description>Hello and welcome to LearnOverpass!
+The Overpass API is a powerful API that lets you query data from OpenStreetMap. You can find different places, routes to locations, and everything under the sun, quite literally! You can ‘talk’ to it and request data for your own specific use, using its own language, the “Overpass Query Language” (QL).
+What you see on the right is a text editor where you can type in your QL commands.</description>
+    </item>
+    
+    <item>
+      <title>Union</title>
+      <link>//osmlab.github.io/learnoverpass/en/docs/block-queries/union/</link>
+      <pubDate>Thu, 07 May 2015 11:09:35 +0000</pubDate>
+      
+      <guid>//osmlab.github.io/learnoverpass/en/docs/block-queries/union/</guid>
+      <description>The union block statement is written as a pair of parentheses. Inside the union, any sequence of statements can be placed, including nested union and foreach statements.
+(statement_1; statement_2; …)[-&amp;gt;.result_set];  It takes no input set. It produces a result set. Its result set is the union of the result sets of all sub-statements, regardless of whether a sub-statement has a redirected result set or not.
+Example:
+(node[name=&amp;quot;Foo&amp;quot;];way[name=&amp;quot;Foo&amp;quot;];);  This collects in the first statement all nodes that have a name tag &amp;ldquo;Foo&amp;rdquo; and in the second statement all ways that have a name tag &amp;ldquo;Foo&amp;rdquo;.</description>
+    </item>
+    
+    <item>
+      <title>Difference</title>
+      <link>//osmlab.github.io/learnoverpass/en/docs/block-queries/difference/</link>
+      <pubDate>Wed, 06 May 2015 11:09:35 +0000</pubDate>
+      
+      <guid>//osmlab.github.io/learnoverpass/en/docs/block-queries/difference/</guid>
+      <description>The difference block statement is written as a pair of parentheses. Inside the difference statement, exactly two statements must be placed, and between them a minus sign.
+(statement_1; - statement_2;)[-&amp;gt;.result_set];  It takes no input set. It produces a result set. Its result set contains all elements that are result of the first sub-statement and not contained in the result of the second sub-statement.
+Example:
+(node[name=&amp;quot;Foo&amp;quot;]; - node(50.0,7.0,51.0,8.0););  This collects all nodes that have a name tag &amp;ldquo;Foo&amp;rdquo; but are not inside the given bounding box.</description>
+    </item>
+    
+    <item>
+      <title>For-each loop (foreach)</title>
+      <link>//osmlab.github.io/learnoverpass/en/docs/block-queries/foreach/</link>
+      <pubDate>Wed, 06 May 2015 11:09:35 +0000</pubDate>
+      
+      <guid>//osmlab.github.io/learnoverpass/en/docs/block-queries/foreach/</guid>
+      <description>The foreach block statement is written as the keyword foreach, followed by a pair of parentheses. Inside these parentheses, any sequence of statements can be placed, including nested union and foreach statements.
+It takes an input set. It produces no result set. The foreach statement loops over the content of the input set, once for every element in the input set.
+Example:
+way[name=&amp;quot;Foo&amp;quot;]; foreach( ( ._; &amp;gt;; ); out; );  For each way that has a name tag with value &amp;ldquo;Foo&amp;rdquo;, this prints the nodes that belong to this way immediately followed by the way itself.</description>
+    </item>
+    
+    <item>
+      <title>Overpass API is a highly optimized, read-only API built for gathering OSM map data.</title>
+      <link>//osmlab.github.io/learnoverpass/de/</link>
+      <pubDate>Wed, 06 May 2015 11:09:35 +0000</pubDate>
+      
+      <guid>//osmlab.github.io/learnoverpass/de/</guid>
+      <description>Currently untranslated</description>
+    </item>
+    
+    <item>
+      <title>Area pivot (pivot)</title>
+      <link>//osmlab.github.io/learnoverpass/en/docs/filters/pivot/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//osmlab.github.io/learnoverpass/en/docs/filters/pivot/</guid>
+      <description>The pivot filter selects the element of the chosen type that defines the outline of the given area.
+The input set can be changed with an adapted prefix notation. As for all filters, the result set is specified by the whole statement, not the individual filter.
+It consists of an opening parenthesis. Then follows the keyword pivot. The filter ends with a closing parenthesis.
+The statement finds for each area in the input set the respective element that the area has been generated from.</description>
+    </item>
+    
+    <item>
+      <title>Bounding Box</title>
+      <link>//osmlab.github.io/learnoverpass/en/docs/filters/bbox/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//osmlab.github.io/learnoverpass/en/docs/filters/bbox/</guid>
+      <description>The bbox-query filter selects all elements within a certain bounding box.
+It has no input set. As for all filters, the result set is specified by the whole statement, not the individual filter.
+(south,west,north,east)  It consists of an opening parenthesis. Then follow four floating point numbers, separated by commas. The filter ends with a closing parenthesis.
+The floating point numbers give the limits of the bounding box: The first is the southern limit or minimum latitude.</description>
+    </item>
+    
+    <item>
+      <title>By Element Id</title>
+      <link>//osmlab.github.io/learnoverpass/en/docs/filters/element-id/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//osmlab.github.io/learnoverpass/en/docs/filters/element-id/</guid>
+      <description>The id-query filter selects the element of given type with given id. It supports beside the OSM datatypes node, way, and relation also the type area.
+It has no input set. As for all filters, the result set is specified by the whole statement, not the individual filter.
+It consists of an opening parenthesis. Then follows a positive integer. The filter is ends with a closing parenthesis.
+Examples:
+node(1); way(1); rel(1); area(1);  Note that area ids need to be derived from an existing OSM way by adding 2400000000 to its OSM id or in case of a relation by adding 3600000000 respectively.</description>
+    </item>
+    
+    <item>
+      <title>By Input Set</title>
+      <link>//osmlab.github.io/learnoverpass/en/docs/filters/input-set/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//osmlab.github.io/learnoverpass/en/docs/filters/input-set/</guid>
+      <description>The &amp;ldquo;item&amp;rdquo; filter selects all elements from its input set.
+As for all filters, the result set is specified by the whole statement, not the individual filter.
+It consists of a dot, followed by the name of the input set.
+Examples: The default set
+node._;  and a named set
+node.a;  It is also possible to specify several input sets:
+node.a.b;   // get area Alpe and Cividale (area[name=&amp;#34;Cividale del Friuli&amp;#34;])-&amp;gt;.</description>
+    </item>
+    
+    <item>
+      <title>By Tag</title>
+      <link>//osmlab.github.io/learnoverpass/en/docs/filters/tag/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//osmlab.github.io/learnoverpass/en/docs/filters/tag/</guid>
+      <description>The has-kv filter selects all elements that have or have not a tag with a certain value. It supports the basic OSM types node, way, and relation as well as the extended type area.
+It has no input set. As for all filters, the result set is specified by the whole statement, not the individual filter.
+All variants consist of an opening bracket, then a string literal in single or double quotes.</description>
+    </item>
+    
+    <item>
+      <title>By area (area)</title>
+      <link>//osmlab.github.io/learnoverpass/en/docs/filters/area/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//osmlab.github.io/learnoverpass/en/docs/filters/area/</guid>
+      <description>The area filter selects all elements of the chosen type that are inside the given area. Please note with regard to attic data that areas always represent current data.
+The input set can be changed with an adapted prefix notation. As for all filters, the result set is specified by the whole statement, not the individual filter.
+Syntax: It consists of an opening parenthesis. Then follows the keyword area. Then can follow a colon and a non-negative integer.</description>
+    </item>
+    
+    <item>
+      <title>By date of change (changed)</title>
+      <link>//osmlab.github.io/learnoverpass/en/docs/filters/changed/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//osmlab.github.io/learnoverpass/en/docs/filters/changed/</guid>
+      <description>The changed filter selects all elements that have been changed between the two given dates. If only one date is given, then the second is assumed to be the front date of the database. If only one date is given and it is run with the current timestamp, then it behaves exactly like &amp;ldquo;newer&amp;rdquo; with two exceptions: first, it is faster, second, it can also stand as the only filter.</description>
+    </item>
+    
+    <item>
+      <title>By polygon (poly)</title>
+      <link>//osmlab.github.io/learnoverpass/en/docs/filters/polygon/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//osmlab.github.io/learnoverpass/en/docs/filters/polygon/</guid>
+      <description>The polygon filter selects all elements of the chosen type inside the given bounding box.
+It has no input set. As for all filters, the result set is specified by the whole statement, not the individual filter.
+It consists of an opening parenthesis. Then follows the keyword poly. Then follows a string containing an even number of floating point numbers, divided only by whitespace. Each pair of floating point numbers represents a coordinate, in order latitude, then longitude.</description>
+    </item>
+    
+    <item>
+      <title>By user (user, uid)</title>
+      <link>//osmlab.github.io/learnoverpass/en/docs/filters/user/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//osmlab.github.io/learnoverpass/en/docs/filters/user/</guid>
+      <description>The user filter selects all elements that have been last touched by the specified user.
+It has no input set. As for all filters, the result set is specified by the whole statement, not the individual filter.
+It consists of an opening parenthesis. Then follows either the keyword user, a colon and a string literal denoting the user name to search for. Or the keyword uid followed by the user id of the user to search for.</description>
+    </item>
+    
+    <item>
+      <title>Item</title>
+      <link>//osmlab.github.io/learnoverpass/en/docs/standalone-queries/item/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//osmlab.github.io/learnoverpass/en/docs/standalone-queries/item/</guid>
+      <description>The item standalone query consists only of an input set prefix.
+It takes the input set specified by its prefix. This is in particular useful for union statements: it reproduces its input set as (part of the) result of the union statement.
+The most common usage is the usage with the default input set:
+ ._;  In the context of a union statement, the following will return all items in the default inputset along with the recurse down result.</description>
+    </item>
+    
+    <item>
+      <title>Newer</title>
+      <link>//osmlab.github.io/learnoverpass/en/docs/filters/newer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//osmlab.github.io/learnoverpass/en/docs/filters/newer/</guid>
+      <description>The newer filter selects all elements that have been changed since the given date. As opposed to other filters, this filter cannot be used alone. If the underlying database instance supports attic data, then &amp;ldquo;changed&amp;rdquo; is probably a better choice than &amp;ldquo;newer&amp;rdquo;.
+It has no input set. As for all filters, the result set is specified by the whole statement, not the individual filter.
+It consists of an opening parenthesis. Then follows a date specification.</description>
+    </item>
+    
+    <item>
+      <title>Print (out)</title>
+      <link>//osmlab.github.io/learnoverpass/en/docs/actions/print/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//osmlab.github.io/learnoverpass/en/docs/actions/print/</guid>
+      <description>The out action can be configured with an arbitrary number of parameters that are appended, separated by whitespace, between the word out and the semicolon.
+The out action takes an input set. It doesn&amp;rsquo;t return a result set. The input set can be changed by prepending the variable name.
+Allowed values, in any order, are:
+ one of the following the degree of verbosity; default is body:
+ ids: Print only the ids of the elements.</description>
+    </item>
+    
+    <item>
+      <title>Recurse (n, w, r, bn, bw, br)</title>
+      <link>//osmlab.github.io/learnoverpass/en/docs/filters/recurse/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//osmlab.github.io/learnoverpass/en/docs/filters/recurse/</guid>
+      <description>The recurse filter selects all elements that are members of an element from the input set or have an element of the input set as member, depending on the given parameter.
+The input set can be changed with an adapted prefix notation. As for all filters, the result set is specified by the whole statement, not the individual filter.
+It consists of an opening parenthesis. Then follows one of the symbols: w (forward from ways), r (forward from relations), bn (backward from nodes), bw (backward from ways), or br (backward from relations).</description>
+    </item>
+    
+    <item>
+      <title>Recurse Up (&lt;)</title>
+      <link>//osmlab.github.io/learnoverpass/en/docs/standalone-queries/recurse-up/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//osmlab.github.io/learnoverpass/en/docs/standalone-queries/recurse-up/</guid>
+      <description>The recurse up standalone query is written as a single less than.
+It takes an input set. It produces a result set. Its result set are all the ways that have a node appearing in the input set as a member, all relations that have a node or way from the input set as a member, and all relations that have a way from the result set as members.
+Example:</description>
+    </item>
+    
+    <item>
+      <title>Relative to other elements (around)</title>
+      <link>//osmlab.github.io/learnoverpass/en/docs/filters/around/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//osmlab.github.io/learnoverpass/en/docs/filters/around/</guid>
+      <description>The around filter selects all elements within a certain radius around the elements in the input set. If you provide coordinates, then these coordinates are used instead of the input set. The input set can be changed with an adapted prefix notation. As for all filters, the result set is specified by the whole statement, not the individual filter.
+A radius of 0 can be used for a way intersection test on outer/inner points.</description>
+    </item>
+    
+  </channel>
+</rss>
